@@ -1,0 +1,46 @@
+#header{
+    display: block;
+    background-color: white;
+}
+.Top_nav{
+    display: block;
+    text-align: right;
+}
+.Top_nav a{
+    color: dimgray;
+    text-decoration: none;
+    font-family: sans-serif bold 30px;
+    text-align: center;
+    border-left: solid 2px gray;
+    padding-left: 6px;
+    padding-right: 3px;
+}
+.characters{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.characters div{
+    display: inline-block;
+    background-image: url("char_background.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 30px;
+    margin-right: 25px;
+}
+.characters div:hover{
+    top:10px;
+}
+#first_a{
+    border: none;
+}
+#Top_logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#header a:hover{
+    color: black;
+}
